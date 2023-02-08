@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <tittle>khesardham software solution </tittle>
+        <style type="text/css">
+            *{padding: 0; margin: 0;box-sizing: border-box;}
+            header{
+                width: 100%;
+                height: 100vh;
+                background-image: url("somu.jpg");
+                background-size: cover;
+                font-family: sans-serif;
+            }
+            .logo{
+                font-size: 2em;
+                letter-spacing: 2px;
+            }
+                .menu a{
+                    text-decoration: none;
+                    color: white;
+                    padding: 10px 20px;
+                    font-size: 20px;
+                    position: relative;
+                    
+                }
+                .menu a:before{
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 0%;
+                    height: 100%;
+                    border-bottom: 2px solid indianred;
+                    transition: 0.4s linear;
+                }
+                .menu a:hover:before{
+                    width: 90%;
+                }
+                .Register a{
+                    text-decoration: none;
+                    color: white;
+                    padding: 10px 20px;
+                    font-size: 20px;
+                    background: indianred;
+                    border-radius: 8px;
+                    transition: 0.4s;
+                }
+                .Register a:hover{
+                    background: transparent;
+                    border: 1px solid indianred;
+                }
+            .somu{
+                max-width: 650px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                text-align: center;
+                color: white;
+            }
+            .somu span{
+                letter-spacing: 10px;
+            }
+            .somu h1{
+                font-size: 3.5em;
+            }
+            .somu a{
+                background-color: indianred;
+                text-decoration: none;
+                color: white;
+                padding: 10px 20px;
+                letter-spacing: 5px;
+                transition: 0.4s;
+            }
+            .somu a:hover{
+                background: transparent;
+                border: 1px solid indianred;
+            }
+            nav{
+                width: 100%;
+                height: 100px;
+                color: white;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+
+            }
+            </style>
+            </head>
+            <body>
+                <header>
+                    <nav>
+                        <div class="logo">
+                            Khesardham SOFTWARE
+                        </div>
+                        <div class="menu">
+                            <a href="#">Home</a>
+                            <a href="#">Contact Us</a>
+                            <a href="#">About Us</a>
+                            <a href="#">Our services</a>
+                            <a href="#">Clients</a>
+                        </div>
+                        <div class="Register">
+                            <a href="#">Register</a>  
+                        </div>
+                    </nav>
+                    <section class="somu">
+                        <span>Enjoy</span>
+                        <h1>KHESARDHAM SOFTWARE SOLUTION</h1>
+                        <br>
+                        <a href="#">Create a your website</a>
+                    </section>
+                </header>
+            </body>
+</html>
